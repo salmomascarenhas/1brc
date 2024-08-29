@@ -1,0 +1,6 @@
+Rio de Janieor;23.5
+Noruega;-7.5
+São Paulo;18.7
+Rio de Janieor;19.8
+Rio de Janieor;24.9
+São Paulo;21.5
