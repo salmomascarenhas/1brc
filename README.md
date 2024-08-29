@@ -102,6 +102,9 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver suge
 
 Se você tem experiência com Go e conhece técnicas para reduzir o tempo de execução, como concorrência, otimização de algoritmos ou manipulação eficiente de arquivos, suas sugestões serão muito bem-vindas! Contribua com seu conhecimento para aprimorar ainda mais este projeto e torná-lo ainda mais eficiente.
 
+## Ideia original
+Créditos da ideia original em Java pode ser acessada no repositório do [gunnarmorling](https://github.com/gunnarmorling/1brc).
+
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
