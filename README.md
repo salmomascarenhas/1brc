@@ -62,24 +62,22 @@ Exemplo de saída:
    cd seu-repositorio
    ```
 
-2. Prepare seu arquivo de entrada (`input.txt`) no formato especificado e coloque-o no diretório raiz do projeto.
+2. Prepare seu arquivo de entrada (`measurements.txt`) no formato especificado e coloque-o no diretório raiz do projeto.
 
 3. Compile e execute o programa:
 
    ```bash
-   go run main.go -input=input.txt
+   go run main.go
    ```
-
-   - `-input`: Especifica o caminho para o arquivo de entrada.
 
 4. O programa irá processar o arquivo e exibir o resultado diretamente no terminal.
 
 ### Exemplo de Uso
 
-Para executar o programa com um arquivo de entrada chamado `input.txt`, use o comando:
+Para executar o programa com um arquivo de entrada chamado `measurements.txt`, use o comando:
 
 ```bash
-go run main.go -input=input.txt
+go run main.go
 ```
 
 Este comando processará os dados, calculará as temperaturas mínima, média e máxima para cada estação e exibirá o resultado no terminal.
