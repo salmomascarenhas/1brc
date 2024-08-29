@@ -100,7 +100,7 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver suge
 
 ### **Desafio de Performance 🚀**
 
-Contribuições que possam melhorar a performance da execução do código são bem vindas. Se você possui experiência com Go e tem ideias sobre como reduzir o tempo de execução utilizando técnicas como concorrência, otimização de algoritmos ou manipulação eficiente de arquivos, adoraríamos ver suas sugestões! Não hesite em nos ajudar a tornar este projeto ainda mais eficiente aprendizado e diversão.
+Se você tem experiência com Go e conhece técnicas para reduzir o tempo de execução, como concorrência, otimização de algoritmos ou manipulação eficiente de arquivos, suas sugestões serão muito bem-vindas! Contribua com seu conhecimento para aprimorar ainda mais este projeto e torná-lo ainda mais eficiente.
 
 ## Licença
 
