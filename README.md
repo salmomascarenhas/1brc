@@ -1,5 +1,3 @@
-
-
 # 1️⃣🐝🏎️ Desafio 1BRC em Go
 
 Este repositório contém uma implementação em Go para o desafio proposto, que envolve a leitura de um arquivo de texto com dados de temperaturas para várias estações meteorológicas. O objetivo é calcular a temperatura mínima, média e máxima para cada estação e exibir os resultados de maneira organizada.
@@ -47,11 +45,12 @@ Exemplo de saída:
 {Hamburg=12.0/12.0/12.0, Istanbul=6.2/14.6/23.0, Palembang=38.8/38.8/38.8}
 ```
 
-## Como Executar o Código em Go
+## Como Executar o Código
 
 ### Pré-requisitos
 
 - Go 1.19 ou superior instalado na sua máquina.
+- Python 3.x instalado para geração do arquivo de entrada.
 
 ### Passos para Executar
 
@@ -62,29 +61,46 @@ Exemplo de saída:
    cd seu-repositorio
    ```
 
-2. Prepare seu arquivo de entrada (`measurements.txt`) no formato especificado e coloque-o no diretório raiz do projeto.
+2. **Geração do Arquivo de Entrada**:
 
-3. Compile e execute o programa:
+   Antes de executar o programa em Go, você precisa gerar o arquivo de entrada `measurements.txt` com os dados simulados. Para isso, utilize o script em Python disponível no repositório:
+
+   ```bash
+   python3 create_measurements.py 100000
+   ```
+
+   Onde `100000` representa a quantidade de linhas a serem geradas. O valor máximo recomendado é de aproximadamente 1 bilhão de linhas, o que resultará em um arquivo de cerca de 12GB.
+
+   **Nota**: O arquivo `measurements.txt` deve ser sobrescrito com o conteúdo gerado pelo script.
+
+3. **Execução do Programa em Go**:
+
+   Após gerar o arquivo de entrada, você pode compilar e executar o programa em Go:
 
    ```bash
    go run main.go
    ```
 
-4. O programa irá processar o arquivo e exibir o resultado diretamente no terminal.
+   O programa irá processar o arquivo `measurements.txt` e exibir os resultados diretamente no terminal.
 
 ### Exemplo de Uso
 
-Para executar o programa com um arquivo de entrada chamado `measurements.txt`, use o comando:
+Para gerar um arquivo de 100 mil linhas e processá-lo com o programa em Go, utilize os seguintes comandos:
 
 ```bash
+python3 create_measurements.py 100000
 go run main.go
 ```
 
-Este comando processará os dados, calculará as temperaturas mínima, média e máxima para cada estação e exibirá o resultado no terminal.
+Esses comandos irão criar o arquivo de entrada `measurements.txt`, calcular as temperaturas mínima, média e máxima para cada estação, e exibir o resultado no terminal.
 
 ## Contribuição
 
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+### **Desafio de Performance 🚀**
+
+Contribuições que possam melhorar a performance da execução do código são bem vindas. Se você possui experiência com Go e tem ideias sobre como reduzir o tempo de execução utilizando técnicas como concorrência, otimização de algoritmos ou manipulação eficiente de arquivos, adoraríamos ver suas sugestões! Não hesite em nos ajudar a tornar este projeto ainda mais eficiente aprendizado e diversão.
 
 ## Licença
 
